@@ -1,0 +1,71 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #49a09d, #5f2c82);
+}   
+
+h1{
+    color: rgb(101, 61, 45);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.container{
+    background: aliceblue;
+    border-radius: 8px;
+    box-shadow: inset;
+    text-align: center;
+    padding: 30px;
+    width: 400px;
+}
+
+.form-g{
+    position: relative;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+label{
+    position: relative;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.button{
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button{
+    padding: 0.25em 0.75em;
+  }
+}
+
+.error{
+    margin: 10px 10px;
+    padding: 15px 10px 15px 50px;
+    color: crimson;
+}
+
+
